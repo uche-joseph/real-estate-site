@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: #04828e;
+}
+
+.details-div {
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#listingName {
+  font-size: 1.35rem;
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#listingImage {
+  border-radius: 5px;
+}
+
+.details-div p{
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.details-div p span {
+  font-weight: normal;
+}
+
+@media (min-width:600px) {
+  .details-div {
+    max-width: 60%;
+  }
+}
+
+@media (min-width:750px) {
+  
+}
+
+@media (min-width:1000px) {
+  .details-div {
+    max-width: 50%;
+  }
+}
+
+@media (min-width:1200px) {
+  .details-div {
+    max-width: 45%;
+  }
+}

@@ -1,0 +1,245 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+            color: black;
+        }
+        header {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0.7rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #bff8ff;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .menu-icon {
+            font-size: 1.3rem;
+        }
+        nav {
+            display: none;
+        }
+
+        nav a {
+          text-decoration: none;
+          color: black;
+        }
+
+        nav a:hover {
+          text-decoration: underline;
+        }
+
+        .get-started {
+            display: none;
+        }
+
+        main {
+          background-color: #bff8ff;
+        }
+
+        
+        .contact-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          max-width: 85%;
+          margin: auto;
+          padding-top: 20px;
+          background-color: #bff8ff;
+        }
+        
+        .contact-content h3 {
+          background-color: #bff8ff;
+          padding: 10px;
+          border: 1px solid #bff8ff;
+          border-radius: 5px;
+          font-size: 13px;
+          margin: 10px 0;
+          color: #04828e;
+        }
+        
+        .contact-content h2 {
+          margin: 10px 0;
+          font-size: 22px;
+          text-align: center;
+          color: #04828e;
+        }
+        
+        .contact-content p {
+          margin: 10px 0;
+          font-size: 14px;
+          text-align: center;
+          color: #04828e;
+        }
+        
+        .contact-btns {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 0;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        #contact-email-btn,
+        #contact-phone-btn {
+          background-color: #04828e;
+          padding: 7px 10px;
+          margin: 10px 0;
+          color: #bff8ff;
+          display: flex;
+          justify-content: space-between;
+          border-radius: 5px;
+          align-items: center;
+        }
+        
+        #contact-email-btn i,
+        #contact-phone-btn i {
+          padding-right: 10px;
+          font-size: 12px;
+        }
+        
+        #contact-email-btn p,
+        #contact-phone-btn p {
+          font-size: 12px;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          padding: 20px 15px;
+          background-color: #04828e;
+          width: 100%;
+          margin: 13px 0 25px;
+          border-radius: 7px;
+          color: #bff8ff;
+        }
+
+        form h5 {
+          font-weight: bold;
+          font-size: 15px;
+          text-align: center;
+          padding-bottom: 10px;
+          color: #bff8ff;
+        }
+
+        form input {
+          padding: 7px;
+          border-radius: 5px;
+          border: 1px solid #bff8ff;
+          margin-bottom: 10px;
+          margin-top: -10px;
+          width: 100%;
+          background-color: #04828e;
+          color: #bff8ff;
+        }
+
+        form input::placeholder,
+        form textarea::placeholder {
+          color: #bff8ff;
+        }
+
+        form label {
+          margin-top: 10px;
+          font-size: 15px;
+          font-weight: bold;
+          text-align: left;
+          color: #bff8ff;
+        }
+
+        form textarea {
+          padding: 7px;
+          border-radius: 5px;
+          border: 1px solid #bff8ff;
+          margin-bottom: 10px;
+          margin-top: -10px;
+          width: 100%;
+          background-color: #04828e;
+          color: #bff8ff;
+        }
+
+        form button {
+          max-width: 50%;
+          background-color: #bff8ff;
+          padding: 7px 10px;
+          border: 1px solid #bff8ff;
+          border-radius: 5px;
+          color: #04828e;
+          margin-top: 10px;
+        }
+
+        @media (min-width: 600px) {
+          form h5 {
+            font-size: 20px;
+          }
+
+          form {
+            max-width: 100%;
+          }
+
+          form button {
+            max-width: 35%;
+          }
+        }
+        
+        @media (min-width: 768px) {
+            header {
+              display: flex;
+              justify-content: space-between;
+              max-width: 100%;
+              margin: auto;
+              padding: 0.7rem 3rem;
+              z-index: 2;
+              background-color: #bff8ff;
+            }
+            #open-menu {
+                display: none;
+            }
+
+            header a  {
+              text-decoration: none;
+              color: #04828e;
+              padding: 0.5rem 1rem;
+              font-size: 0.9rem;
+            }
+            nav {
+                display: flex;
+                gap: 1rem;
+            }
+            .get-started {
+              display: block;
+              padding: 0.5rem 1rem;
+              background: #04828e;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              font-size: 0.8rem;
+            }
+
+            form {
+              max-width: 70%;
+              padding: 25px 20px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            header {
+              padding: 0.7rem 15rem;
+            }
+
+          form {
+            max-width: 35%;
+          }
+
+          form button {
+            max-width: 30%;
+            padding: 10px;
+          }
+        }
+    
