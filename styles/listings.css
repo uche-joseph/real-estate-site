@@ -94,14 +94,18 @@ body {
 
 @media (min-width:500px) {
     .filter-container {
-        max-width: 75%;
+        max-width: 100%;
         margin: auto;
         padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .listings-container {
-        max-width: 80%;
+        max-width: 100%;
         margin: auto;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .listing img {
